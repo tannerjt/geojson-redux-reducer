@@ -1,0 +1,19 @@
+{
+  "name": "redux-geojson",
+  "version": "0.0.1",
+  "description": "Use redux methodology to implement undo and redo functionality with geojson.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "geojson",
+    "redux"
+  ],
+  "author": "Joshua Tanner <support@tannergeo.com> (http://tannergeo.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "redux": "^3.6.0"
+  }
+}

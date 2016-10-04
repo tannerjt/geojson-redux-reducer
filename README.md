@@ -1,4 +1,4 @@
-# geojson-redux-reducer
+# redux-geojson
 
 By: [TannerGeo](http://tannergeo.com)
 

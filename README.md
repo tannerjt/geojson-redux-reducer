@@ -19,6 +19,7 @@ There are two main actions types to work with the reducer, preferably from a Red
 
 ```
 var store = createStore(geojson);
+
 store.dispatch({
   type: 'ADD_FEATURE',
   geometry: {"type": "Point", "coordinates": [0, 1]},

@@ -17,18 +17,18 @@ There are two main actions types to work with the reducer, preferably from a Red
 
 ### Example Adding a Feature
 
-`
+```
 var store = createStore(geojson);
 store.dispatch({
   type: 'ADD_FEATURE',
   geometry: {"type": "Point", "coordinates": [0, 1]},
   properties: {"prop0": "value0"}
 });
-`
+```
 
 ### Example Removing a Feature
 
-`
+```
 var initialState = {
   type : 'FeatureCollection',
   features : [
@@ -53,13 +53,13 @@ store.dispatch({
   type: 'DELETE_FEATURE',
   index: 1
 });
-`
+```
 
 #### To test the module
-`
+```
 npm install
 npm test
-`
+```
 
 This module was created for learning purposes, but can easily be modified to
 support additional actions and implemented into a larger project.
